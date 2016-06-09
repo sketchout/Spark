@@ -1072,7 +1072,7 @@
 		<checkstyle maxErrors="17000" config="build/checkstyle.xml">
 			<fileset dir="src/java" includes="**/*.java" />
 			<!-- <formatter type="plain"/> -->
-			<formatter type="xml" toFile="target/checkstyle.xml"/>
+			<formatter type="xml" toFile="${target}/checkstyle.xml"/>
 		</checkstyle>
 	</target>
 
